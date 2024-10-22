@@ -152,28 +152,45 @@ function GimsrExperiences() {
                                 modules={[Autoplay, Pagination, Navigation]}
                                 className="mySwiper"
                             >
-                                <SwiperSlide className='w-8/12 mx-auto'>
-                                <div className='    '>
-                                    <div className='shadow-lg rounded=lg'>
-                                        <img src={experience_1} className=''/>
+                                <SwiperSlide>
+                                <div className='flex items-center w-8/12 mx-auto gap-2 bg-white p-12'>
+                                    <div className='shadow-lg rounded=lg w-3/12'>
+                                        <img src={experience_1} className='w-full h-full'/>
+                                        <div className='bg-white text-[#007367] text-md font-bold text-center'>
+                                            <h1>Dr. Likitha Jakkampudi</h1>
+                                        </div>
                                     </div>
-                                    <div>
+                                    <div className='w-8/12'>
+                                        <p>My experience at GIMSR has been nothing short of amazing. The college has played a significant role in shaping me into a better person. The state-of-the-art infrastructure and meticulous maintenance leave everyone awestruck. The faculties have been exceptionally friendly and supportive, making the learning journey enjoyable and inspiring. The friendships forged here are truly special, and the memories created will be cherished forever. I am deeply grateful for the invaluable experiences and learning opportunities I received at GIMSR.</p>
+                                    </div>
+                                </div>
+                                </SwiperSlide>
+                                <SwiperSlide >
+                                <div className='flex items-center w-8/12 mx-auto gap-2 bg-white p-12'>
+                                    <div className='shadow-lg rounded=lg w-3/12'>
+                                        <img src={experience_2} className='w-full h-full'/> 
+                                        <div className='bg-white text-[#007367] text-md font-bold text-center '>
+                                            <h1>Dr. Anoop Reddy</h1>
+                                        </div>
+                                    </div>
+                                    <div className='w-8/12'>
                                         <p>Attending this medical college has been an incredibly enriching experience. The faculty members were exceptional, creating a supportive and interactive learning environment. The top-notch infrastructure provided the best facilities for our academic growth. The professors and doctors were knowledgeable and student-friendly, encouraging active participation and hands-on experience. These skills have given me a competitive edge in my professional life. The vibrant student life and comfortable hostels made it feel like a home away from home.</p>
                                     </div>
                                 </div>
                                 </SwiperSlide>
-                                <SwiperSlide className='w-8/12 mx-auto'>
-                                <div className=''>
-                                    <div className='shadow-lg rounded=lg'>
-                                        <img src={experience_2} className=''/>
+                                <SwiperSlide>
+                                <div className='flex items-center w-8/12 mx-auto gap-2 bg-white p-12'>
+                                    <div className='shadow-lg rounded=lg w-3/12'>
+                                        <img src={experience_3} className='w-full h-full'/>
+                                        <div className='bg-white text-[#007367] text-md font-bold text-center '>
+                                            <h1>Dr. Mortha Sai Lakshmi</h1>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <p>Attending this medical college has been an incredibly enriching experience. The faculty members were exceptional, creating a supportive and interactive learning environment. The top-notch infrastructure provided the best facilities for our academic growth. The professors and doctors were knowledgeable and student-friendly, encouraging active participation and hands-on experience. These skills have given me a competitive edge in my professional life. The vibrant student life and comfortable hostels made it feel like a home away from home.</p>
+                                    <div className='w-8/12'>
+                                        <p>In 2016, I was searching for the perfect undergraduate medical college and fortunately found Gitam Institute of Medical Sciences and Research (GIMSR). The infrastructure and professors exceeded my expectations, providing a comfortable learning environment and valuable guidance. Serving thousands of COVID patients through GIMSR remains an honour. I highly recommend this college for its development of various facilities in multi-speciality and super-speciality courses, producing the finest doctors for our nation.</p>
                                     </div>
                                 </div>
                                 </SwiperSlide>
-                                <SwiperSlide className='w-8/12 mx-auto'>Slide 3</SwiperSlide>
-
                             </Swiper>
                         </div>
                     </div>

@@ -8,9 +8,11 @@ import GimsrExperiences from './Componets/GimsrExperiences';
 import Header from './Componets/Header';
 import HowToChooseGimsr from './Componets/HowToChooseGimsr';
 import KeyHighlights from './Componets/KeyHighlights';
+import LifeOnCampus from './Componets/LifeOnCampus';
 import MbbsAdmission from './Componets/MbbsAdmission';
 import MeritScholars from './Componets/MeritScholars';
 import Slider from './Componets/Slider';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       <AcademicDifferents/>
       <GimsrExperiences/>
       <FearlessHeart/>
+      <LifeOnCampus/>
+      <Footer/>
     </>
   );
 }
